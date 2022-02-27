@@ -40,8 +40,40 @@
                     <button class="btn btn-dark">Join Now</button>
                 </li>
             </ul>
+
+            <!-- Hamburger Menu -->
+            <button type="button" class="hamburger" id="menu-btn">
+                <span class="hamburger-top"></span>
+                <span class="hamburger-middle"></span>
+                <span class="hamburger-bottom"></span>
+            </button>
         </div>
     </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu hidden" id="menu">
+        <ul>
+            <li>
+                <a href="#">Menu</a>
+            </li>
+            <li>
+                <a href="#">Rewards</a>
+            </li>
+            <li>
+                <a href="#">Gift Cards</a>
+            </li>
+        </ul>
+        <div class="mobile-menu-bottom">
+            <button class="btn btn-dark-outline">Sign in</button>
+            <button class="btn btn-dark">Join now</button>
+            <div>
+                <a href="#">
+                    <img src="./img/marker.svg" alt="">
+                    <span>Find a store</span>
+                </a> 
+            </div>            
+        </div>
+    </div>
 
     <!-- Box A -->
     <section class="box box-a bg-primary text-center py-md">
@@ -98,21 +130,54 @@
     <section class="box box-f grid-col-2">
         <div>
             <img src="./img/box-f1.jpg" alt="">
-            <div class="box-text">
-                <h2 class="text-md">Let the holiday cheer come to you</h2>
-                <p class="text-sm">Make the moment merry. Order Starbucks&reg; holiday favorites on Uber Eats.*</p>
-                <a href="#" class="btn btn-light-outline">Order Now</a>
-            </div>
+            <div class="bg-extra py-lg">
+                <div class="box-text">
+                    <h2 class="text-md">Let the holiday cheer come to you</h2>
+                    <p class="text-sm">Make the moment merry. Order Starbucks&reg; holiday favorites on Uber Eats.*</p>
+                    <a href="#" class="btn btn-dark-outline">Order Now</a>
+                </div>                                
+            </div>            
         </div>
         <div>
             <img src="./img/box-f2.jpg" alt="">
-            <div class="box-text">
-                <h2 class="text-md">Loved Passing on Netflix?</h2>
-                <p class="text-sm">Our new social series about film adaptations kicks off with the actors and directors who brought the book to life.</p>
-                <a href="#" class="btn btn-light-outline">Order Now</a>
-            </div>
+            <div class="bg-primary py-lg">
+                <div class="box-text">
+                    <h2 class="text-md">Loved Passing on Netflix?</h2>
+                    <p class="text-sm">Our new social series about film adaptations kicks off with the actors and directors who brought the book to life.</p>
+                    <a href="#" class="btn btn-light-outline">Order Now</a>
+                </div>
+            </div>            
         </div>
     </section>
+
+    <div class="divider"></div>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="social">
+                <a href="https://www.facebook.com">
+                    <img src="./img/social-facebook.svg" alt="Facebook">
+                </a>
+                <a href="https://www.instagram.com">
+                    <img src="./img/social-instagram.svg" alt="Instagram">
+                </a>
+                <a href="https://www.twitter.com">
+                    <img src="./img/social-twitter.svg" alt="Twitter">
+                </a>
+                <a href="https://www.youtube.com">
+                    <img src="./img/social-youtube.svg" alt="YouTube">
+                </a>
+                <a href="https://spotify.com">
+                    <img src="./img/social-spotify.svg" alt="Spotify">
+                </a>
+                <a href="https://www.pinterest.com">
+                    <img src="./img/social-pinterest.svg" alt="Pinterest">
+                </a>
+            </div>
+            <p>&copy; 2021 Starbucks Coffee Company. All Rights Reserved.</p>
+        </div>
+    </footer>
 
     <script src="./script.js"></script>
 </body>
